@@ -44,5 +44,19 @@ console.log(myStr + myNum) // concatenates int with the string and turns it into
 //to initiate a git repository:
 // git init
 
+//git status = will tell us which file is/isn't being tracked
+
 //Staging files for a commit:
-//git add <file_name> or git add .
+//git add <file_name> or git add . (to add all of the files inside the folder that you are in)
+
+// To commit your changes, run the following command:
+//git commit -m "Your commit Message Here" (short and sweet)
+
+// To view the commit:
+//got log
+// Shows us the commit hash, branch name, commit message, and other metadata
+
+
+
+
+//git reset (will reset the depository)
