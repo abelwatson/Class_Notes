@@ -56,6 +56,17 @@ console.log(myStr + myNum) // concatenates int with the string and turns it into
 //got log
 // Shows us the commit hash, branch name, commit message, and other metadata
 
+//GitHub click "create new repository"
+//Name repository, public, no selecting other, create
+//copy link from creation
+// VSC link local with remote by:
+//git remote add origin "link"
+
+//checking to make sure connected:
+//git remote -v
+
+//To push remote repository
+//git push origin master
 
 
 
