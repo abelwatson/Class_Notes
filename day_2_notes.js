@@ -53,7 +53,7 @@ console.log(myStr + myNum) // concatenates int with the string and turns it into
 //git commit -m "Your commit Message Here" (short and sweet)
 
 // To view the commit:
-//got log
+//git log
 // Shows us the commit hash, branch name, commit message, and other metadata
 
 //GitHub click "create new repository"
