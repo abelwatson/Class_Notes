@@ -149,3 +149,31 @@ let num = 16;
 // LOOPS
 // for loop - a quick and easy way to iterate or "loop" over something, to do it repeatedly
 // Infinite loops are possible(best to avoid): crtl + c, or close VSC
+// Loop take in three parameters, each separated by a semicolon:
+// 1. initial expression
+// 2. condition
+// 3. increment(or decrement) expression
+
+//     1       2      3
+for (i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+// to decrease by 1 we use i--
+for (i = 10; i >= 0; i--) {
+    console.log(i);
+};
+
+// Challenge: use a for loop to count to 20, but by 2's
+// Decrease by 2 with i -= 2
+for (i = 0; i <= 20; i += 2){
+    console.log(i);
+};
+
+//Printing each letter with a loop
+let word = 'Fantastic';
+
+for (let i = 0; i < word.length; i++) {
+    //console.log(i) // printing the numerical index of the string's letter
+    console.log(word[i]); // [] are used to get the letter itself(value of index)
+};
