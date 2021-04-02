@@ -31,3 +31,40 @@ let func = function(){
 }
 
 func()
+
+// Scope
+// Hierarchy of variables in our code - commonly referred to as global scope, local scope, parent scope, and child scope
+
+let coffeeOrigin = 'Ethiopia' // global scope
+
+function exampleFunction() {
+    let x = 'local scope - declared inside function';
+    console.log(x);
+    console.log(coffeeOrigin);
+}
+
+exampleFunction();
+
+// Global scope can be accessed by local function scope
+// Local scope cannot be access by global scope
+
+// MDN Docs: https://developer.mozilla.org/en-US/docs/Glossary/Scope
+
+// Functions
+// block of code designed to perform a particular task
+// TBD
+
+let addNums = function(x, y) {
+    let result = x + y;
+    return console.log(result);
+}
+
+
+function addNums(x, y){
+    let result = x + y;
+    return result;
+};
+
+let myStuff = addNums(5,6)
+
+console.log(myStuff + 4)
