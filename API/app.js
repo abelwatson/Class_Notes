@@ -55,7 +55,6 @@ generateBtn.addEventListener("click", (e) => {
         
         name.innerText = data.name;
         cardImg.src = data.sprites.front_shiny;
-        ability.innerText = data.abilities[0].ability.name;
         weight.innerText = data.weight;
     }
     getPokemon();
